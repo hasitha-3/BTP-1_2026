@@ -1,0 +1,93 @@
+Quotient Transformer Training Log
+============================================================
+Seed            : 42
+Dataset file    : dataset.json
+Total samples   : 100000
+Train samples   : 80000
+Val samples     : 20000
+Max obstacles   : 10
+Batch size      : 32
+Epochs          : 60
+LR              : 0.001
+Class weights   : [0.3230000138282776, 0.8349999785423279, 2.0889999866485596, 4.953000068664551, 34.42300033569336]
+d_model         : 64
+n_heads         : 4
+num_layers      : 2
+dropout         : 0.3
+============================================================
+Epoch [01/60] | Train Loss: 0.6931, Acc: 77.7% | Val Loss: 0.4314, Acc: 84.9% | LR: 1.00e-03
+Epoch [02/60] | Train Loss: 0.3659, Acc: 89.2% | Val Loss: 0.1838, Acc: 93.7% | LR: 1.00e-03
+Epoch [03/60] | Train Loss: 0.3240, Acc: 90.2% | Val Loss: 0.3061, Acc: 87.7% | LR: 1.00e-03
+Epoch [04/60] | Train Loss: 0.3291, Acc: 89.8% | Val Loss: 0.2516, Acc: 93.1% | LR: 1.00e-03
+Epoch [05/60] | Train Loss: 0.2972, Acc: 91.1% | Val Loss: 0.2090, Acc: 92.5% | LR: 1.00e-03
+Epoch [06/60] | Train Loss: 0.2646, Acc: 92.0% | Val Loss: 0.1981, Acc: 93.3% | LR: 1.00e-03
+Epoch [07/60] | Train Loss: 0.2932, Acc: 90.9% | Val Loss: 0.1950, Acc: 91.9% | LR: 1.00e-03
+Epoch [08/60] | Train Loss: 0.2665, Acc: 91.7% | Val Loss: 0.0993, Acc: 95.7% | LR: 1.00e-03
+Epoch [09/60] | Train Loss: 0.2699, Acc: 91.8% | Val Loss: 0.2465, Acc: 93.7% | LR: 1.00e-03
+Epoch [10/60] | Train Loss: 0.2517, Acc: 92.3% | Val Loss: 0.1357, Acc: 94.6% | LR: 1.00e-03
+  Per-class: Feasible:94.1%  Link1:95.1%  Link2:95.9%  Link3:96.8%  Link4:86.0%
+Epoch [11/60] | Train Loss: 0.2522, Acc: 92.2% | Val Loss: 0.2029, Acc: 94.4% | LR: 1.00e-03
+Epoch [12/60] | Train Loss: 0.2267, Acc: 93.2% | Val Loss: 0.2905, Acc: 90.4% | LR: 1.00e-03
+Epoch [13/60] | Train Loss: 0.2391, Acc: 92.8% | Val Loss: 0.1577, Acc: 94.3% | LR: 1.00e-03
+Epoch [14/60] | Train Loss: 0.2367, Acc: 92.6% | Val Loss: 0.4453, Acc: 91.6% | LR: 5.00e-04
+Epoch [15/60] | Train Loss: 0.1513, Acc: 95.2% | Val Loss: 0.1267, Acc: 95.9% | LR: 5.00e-04
+Epoch [16/60] | Train Loss: 0.1498, Acc: 95.3% | Val Loss: 0.0948, Acc: 96.3% | LR: 5.00e-04
+Epoch [17/60] | Train Loss: 0.1526, Acc: 95.2% | Val Loss: 0.1243, Acc: 96.9% | LR: 5.00e-04
+Epoch [18/60] | Train Loss: 0.1408, Acc: 95.6% | Val Loss: 0.0851, Acc: 96.5% | LR: 5.00e-04
+Epoch [19/60] | Train Loss: 0.1395, Acc: 95.5% | Val Loss: 0.1005, Acc: 96.5% | LR: 5.00e-04
+Epoch [20/60] | Train Loss: 0.1256, Acc: 95.8% | Val Loss: 0.0728, Acc: 97.4% | LR: 5.00e-04
+  Per-class: Feasible:97.2%  Link1:97.8%  Link2:97.1%  Link3:97.2%  Link4:96.3%
+Epoch [21/60] | Train Loss: 0.1519, Acc: 95.4% | Val Loss: 0.1359, Acc: 95.5% | LR: 5.00e-04
+Epoch [22/60] | Train Loss: 0.1341, Acc: 95.7% | Val Loss: 0.1259, Acc: 97.1% | LR: 5.00e-04
+Epoch [23/60] | Train Loss: 0.1363, Acc: 95.7% | Val Loss: 0.0812, Acc: 97.3% | LR: 5.00e-04
+Epoch [24/60] | Train Loss: 0.1353, Acc: 95.8% | Val Loss: 0.1042, Acc: 96.2% | LR: 5.00e-04
+Epoch [25/60] | Train Loss: 0.1424, Acc: 95.5% | Val Loss: 0.1071, Acc: 95.8% | LR: 5.00e-04
+Epoch [26/60] | Train Loss: 0.1303, Acc: 96.0% | Val Loss: 0.0739, Acc: 97.0% | LR: 2.50e-04
+Epoch [27/60] | Train Loss: 0.1060, Acc: 96.5% | Val Loss: 0.0629, Acc: 97.9% | LR: 2.50e-04
+Epoch [28/60] | Train Loss: 0.0888, Acc: 97.1% | Val Loss: 0.0595, Acc: 97.4% | LR: 2.50e-04
+Epoch [29/60] | Train Loss: 0.0876, Acc: 97.1% | Val Loss: 0.1110, Acc: 96.2% | LR: 2.50e-04
+Epoch [30/60] | Train Loss: 0.0924, Acc: 97.1% | Val Loss: 0.0700, Acc: 97.8% | LR: 2.50e-04
+  Per-class: Feasible:98.3%  Link1:97.3%  Link2:95.8%  Link3:97.3%  Link4:98.1%
+Epoch [31/60] | Train Loss: 0.0992, Acc: 96.8% | Val Loss: 0.0626, Acc: 97.6% | LR: 2.50e-04
+Epoch [32/60] | Train Loss: 0.0868, Acc: 97.2% | Val Loss: 0.0506, Acc: 97.9% | LR: 2.50e-04
+Epoch [33/60] | Train Loss: 0.0912, Acc: 97.1% | Val Loss: 0.0745, Acc: 97.7% | LR: 2.50e-04
+Epoch [34/60] | Train Loss: 0.0892, Acc: 97.0% | Val Loss: 0.0605, Acc: 97.8% | LR: 2.50e-04
+Epoch [35/60] | Train Loss: 0.0901, Acc: 97.0% | Val Loss: 0.0646, Acc: 97.4% | LR: 2.50e-04
+Epoch [36/60] | Train Loss: 0.0856, Acc: 97.2% | Val Loss: 0.0697, Acc: 98.3% | LR: 2.50e-04
+Epoch [37/60] | Train Loss: 0.0866, Acc: 97.2% | Val Loss: 0.0741, Acc: 97.9% | LR: 2.50e-04
+Epoch [38/60] | Train Loss: 0.0901, Acc: 97.2% | Val Loss: 0.0649, Acc: 98.1% | LR: 1.25e-04
+Epoch [39/60] | Train Loss: 0.0688, Acc: 97.7% | Val Loss: 0.0502, Acc: 98.5% | LR: 1.25e-04
+Epoch [40/60] | Train Loss: 0.0634, Acc: 97.8% | Val Loss: 0.0462, Acc: 98.2% | LR: 1.25e-04
+  Per-class: Feasible:98.1%  Link1:98.2%  Link2:99.0%  Link3:98.5%  Link4:96.3%
+Epoch [41/60] | Train Loss: 0.0633, Acc: 97.9% | Val Loss: 0.0514, Acc: 98.2% | LR: 1.25e-04
+Epoch [42/60] | Train Loss: 0.0652, Acc: 97.8% | Val Loss: 0.0435, Acc: 98.7% | LR: 1.25e-04
+Epoch [43/60] | Train Loss: 0.0649, Acc: 97.9% | Val Loss: 0.0521, Acc: 97.9% | LR: 1.25e-04
+Epoch [44/60] | Train Loss: 0.0664, Acc: 97.9% | Val Loss: 0.0468, Acc: 98.4% | LR: 1.25e-04
+Epoch [45/60] | Train Loss: 0.0604, Acc: 97.9% | Val Loss: 0.0425, Acc: 98.5% | LR: 1.25e-04
+Epoch [46/60] | Train Loss: 0.0632, Acc: 98.0% | Val Loss: 0.0574, Acc: 98.4% | LR: 1.25e-04
+Epoch [47/60] | Train Loss: 0.0654, Acc: 97.9% | Val Loss: 0.0479, Acc: 98.5% | LR: 1.25e-04
+Epoch [48/60] | Train Loss: 0.0583, Acc: 98.1% | Val Loss: 0.0499, Acc: 98.4% | LR: 1.25e-04
+Epoch [49/60] | Train Loss: 0.0588, Acc: 98.0% | Val Loss: 0.0717, Acc: 98.4% | LR: 1.25e-04
+Epoch [50/60] | Train Loss: 0.0623, Acc: 98.0% | Val Loss: 0.0649, Acc: 98.6% | LR: 1.25e-04
+  Per-class: Feasible:98.8%  Link1:99.2%  Link2:97.5%  Link3:94.1%  Link4:99.1%
+Epoch [51/60] | Train Loss: 0.0575, Acc: 98.1% | Val Loss: 0.0460, Acc: 98.7% | LR: 6.25e-05
+Epoch [52/60] | Train Loss: 0.0529, Acc: 98.2% | Val Loss: 0.0598, Acc: 98.7% | LR: 6.25e-05
+
+Early stopping at epoch 52 (no improvement for 10 epochs).
+============================================================
+
+Best val accuracy   : 98.68%
+Best weights saved  : best_model_weights.pth
+Final weights saved : final_model_weights.pth
+Final per-class acc : Feasible:98.5%  Link1:99.4%  Link2:99.2%  Link3:97.8%  Link4:87.9%
+
+Macro F1: 88.942%
+Weighted F1: 88.838%
+Accuracy: 88.828%
+
+Per class F1:
+Feasible (0): 100.000%
+Link 1: 97.201%
+Link 2: 82.458%
+Link 3: 80.131%
+Link 4: 84.921%
